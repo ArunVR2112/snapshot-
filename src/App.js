@@ -29,7 +29,7 @@ export default function App() {
         <div className='w-full bg-gradient-to-b pt-5 from-black to-gray-700 h-fit'  >
             <h1 className='text-2xl pb-4 text-white '>SnapShot📲</h1>
             <input className='w-1/3 border-none rounded text-gray-500 bg-blend-darken bg-gray-800 h-10 dark:text-gray-400' onChange={(e) => { searchQuery(e) }} onKeyDown={keyDwon} placeholder='Search the name🔎' />
-            <div className='md:grid-cols-4 sm:grid-cols-3 grid  grid-cols-2 w-full mt-10 sm:pb-10 '>
+            <div className='md:grid-cols-4 sm:grid-cols-3 grid pb-12  grid-cols-2 w-full mt-10 sm:pb-10 '>
                 {
                     imageSrc.map((val, index) => <Cards key={index} data={val} />)
                  }
