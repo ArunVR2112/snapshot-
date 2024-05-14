@@ -1,6 +1,6 @@
 
 import axios from 'axios';
-import { useReducer, useEffect, useState, useContext } from 'react';
+import { useEffect, useState } from 'react';
 
 const useFetch = (url) => {
 
